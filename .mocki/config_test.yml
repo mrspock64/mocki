@@ -10,7 +10,7 @@ endpoints:
     responses:
       - statusCode: 200
         body:
-          message: Hello from Mocki TEST TEST
+          message: Hello from Mocki TEST TEST TEST
         headers:
           - name: content-type
             value: application/json
