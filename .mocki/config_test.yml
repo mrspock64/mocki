@@ -55,7 +55,7 @@ endpoints:
       - statusCode: 200
         condition:
           operator: eq
-          comparand: params.message # changed from query.message
+          comparand: query.message # changed from query.message
           value: b
         body:
           message: param value was b
